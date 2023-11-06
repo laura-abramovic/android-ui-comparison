@@ -7,6 +7,10 @@ android {
     namespace = "com.laura.viewsui"
     compileSdk = 33
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.laura.viewsui"
         minSdk = 24

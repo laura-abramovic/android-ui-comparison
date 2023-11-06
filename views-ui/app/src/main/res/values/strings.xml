@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ViewsUI</string>
+
+    <string name="hello_user">Hello %s!</string>
+    <string name="greet">greet</string>
+    <string name="user">user</string>
 </resources>
