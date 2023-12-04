@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">ComposeUI</string>
 
+    <!--  Start screen  -->
     <string name="hello_user">Hello %s!</string>
     <string name="greet">greet</string>
     <string name="user">user</string>
+
+    <!--  Pets screen  -->
+    <string name="pets_title">All your pets</string>
+
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  common  -->
+    <dimen name="title_font_size">26sp</dimen>
+
+    <!--  pets  -->
+    <dimen name="pets_border_width">1dp</dimen>
+    <dimen name="pets_image_size">64dp</dimen>
+    <dimen name="pets_name_font_size">20sp</dimen>
+    <dimen name="pets_species_font_size">10sp</dimen>
+</resources>
