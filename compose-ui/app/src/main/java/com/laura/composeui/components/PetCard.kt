@@ -20,10 +20,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import coil.compose.AsyncImage
 import com.laura.composeui.R
 import com.laura.composeui.core.Spacing
-import com.laura.composeui.domain.Pet
-import com.laura.composeui.domain.PetSpecies
 import com.laura.composeui.ui.theme.ComposeUITheme
 import com.laura.composeui.utils.fontDimensionResource
+import com.laura.shared.pets.model.Pet
+import com.laura.shared.pets.model.PetSpecies
 
 private const val FIFTY = 50f
 

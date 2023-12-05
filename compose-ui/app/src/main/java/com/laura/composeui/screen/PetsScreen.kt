@@ -12,8 +12,8 @@ import androidx.compose.ui.res.stringResource
 import com.laura.composeui.R
 import com.laura.composeui.components.PetCard
 import com.laura.composeui.core.Spacing
-import com.laura.composeui.mock.MockRepo
 import com.laura.composeui.utils.fontDimensionResource
+import com.laura.shared.pets.domain.MockRepo
 
 @Composable
 fun PetsScreen() {
