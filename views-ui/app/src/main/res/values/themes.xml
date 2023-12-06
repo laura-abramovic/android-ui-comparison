@@ -6,4 +6,17 @@
     </style>
 
     <style name="Theme.ViewsUI" parent="Base.Theme.ViewsUI" />
+
+    <style name="ScreenTitle">
+        <item name="android:textSize">@dimen/title_font_size</item>
+    </style>
+
+    <style name="TextTag">
+        <item name="background">@drawable/pill_background</item>
+    </style>
+
+    <style name="RoundedCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/spacing_medium</item>
+    </style>
 </resources>

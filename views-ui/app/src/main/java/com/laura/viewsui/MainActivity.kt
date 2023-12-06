@@ -2,6 +2,7 @@ package com.laura.viewsui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.laura.viewsui.screen.PetsFragment
 import com.laura.viewsui.screen.StartFragment
 import com.laura.viewsui.utils.logCurrentTime
 
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         supportFragmentManager
             .beginTransaction()
-            .add(R.id.fragment_container, StartFragment(), StartFragment.TAG)
+            .add(R.id.fragment_container, PetsFragment(), PetsFragment.TAG)
             .commit();
     }
 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/medium"
+    android:layout_marginVertical="@dimen/extra_small"
+    android:background="@drawable/card_background">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/pets_image_size"
+        android:layout_height="@dimen/pets_image_size"
+        android:layout_margin="@dimen/spacing_small"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundedCorners" />
+
+    <TextView
+        android:id="@+id/pet_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginEnd="@dimen/spacing_medium"
+        android:textSize="@dimen/pets_name_font_size"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toTopOf="@id/image"
+        tools:text="Pet name" />
+
+    <TextView
+        android:id="@+id/pet_tag"
+        style="@style/TextTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/extra_small"
+        android:layout_marginEnd="@dimen/spacing_medium"
+        android:background="@drawable/pill_background"
+        android:paddingHorizontal="@dimen/spacing_extra_small"
+        android:paddingVertical="@dimen/spacing_micro"
+        android:textSize="@dimen/pets_species_font_size"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@id/pet_name"
+        tools:text="Pet tag" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.laura.viewsui"
-    compileSdk = 33
+    compileSdk = 34
 
     buildFeatures {
         viewBinding = true
@@ -14,7 +14,7 @@ android {
     defaultConfig {
         applicationId = "com.laura.viewsui"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -48,4 +48,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation(files("libs/shared-debug.aar"))
 }

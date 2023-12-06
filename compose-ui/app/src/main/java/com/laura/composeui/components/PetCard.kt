@@ -71,7 +71,6 @@ fun PetCard(
                     .padding(horizontal = Spacing.ExtraSmall, vertical = Spacing.Micro)
             )
         }
-
     }
 }
 
