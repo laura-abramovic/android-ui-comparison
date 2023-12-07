@@ -1,4 +1,4 @@
-package com.laura.composeui.screen
+package com.laura.composeui.screen.pets
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth

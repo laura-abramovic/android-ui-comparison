@@ -1,4 +1,4 @@
-package com.laura.composeui.screen
+package com.laura.composeui.screen.start
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
