@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_greetings"
+        android:icon="@drawable/ic_waving_hand"
+        android:title="@string/item_greetings_title" />
+    <item
+        android:id="@+id/item_pets"
+        android:icon="@drawable/ic_pets"
+        android:title="@string/item_pets_title" />
+</menu>

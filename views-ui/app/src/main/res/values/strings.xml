@@ -8,4 +8,8 @@
 
     <!--  Pets screen  -->
     <string name="pets_title">All your pets</string>
+
+    <!--  Bottom navigation  -->
+    <string name="item_greetings_title">Greetings</string>
+    <string name="item_pets_title">Pets</string>
 </resources>
